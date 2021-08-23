@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/bg01.jpg"), #000000;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo  {
+    font-family: 'Lexend Deca';
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 50px;
+    top: 35px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 62px;
+
+    color: #FFFFFF;
+
+    letter-spacing: 0.05em;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+#login {
+    position: absolute;
+    width: 96px;
+    height: 28px;
+    left: 85vw;
+    top: 8vh;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 28px;
+    letter-spacing: 0.25em;
+
+    color: #FFFFFF;
+
+    background: none;
+}
+
+
+#loginBox {
+    position: absolute;
+    width: 12vw;
+    height: 8vh;
+    left: 81.3vw;
+    top: 6vh;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+
+    background: none;
+}
+
+
+#loginRect {
+
+position: absolute;
+width: 12vw;
+height: 4px;
+left: 81.3vw;
+top: 14vh;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+
+
+
+
+.wrapper {
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 250px;
+    top: 30px;
+}
+.wrapper .project {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20vh;
+    top: 0.1vh;
+    font-family: 'Spartan' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+
+}
+.wrapper .service {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40vh;
+    top: 0.1vh;
+
+    font-family: 'Spartan' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
+.wrapper .about {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 60vh;
+    top: 0.1vh;
+
+    font-family: 'Spartan' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
+.wrapper .contact {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 80vh;
+    top: 0.1vh;
+
+    font-family: 'Spartan' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+}
+
+#highlight_box {
+    position: absolute;
+    width: 825px;
+    height: 495px;
+    left: 22vw;
+    top: 22vh;
+    border: 6px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#highlight_text {
+    position: absolute;
+    width: 630px;
+    height: 225px;
+    left: 27vw;
+    top: 30vh;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+}
+
+
+#signup {
+    position: absolute;
+    width: 96px;
+    height: 28px;
+    left: 29.5vw;
+    top: 62.1vh;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 28px;
+    letter-spacing: 0.25em;
+
+    color: #FFFFFF;
+
+    background: none;
+}
+
+
+#signupBox {
+
+    position: absolute;
+    width: 12vw;
+    height: 8vh;
+    left: 27vw;
+    top: 60vh;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+
+    background: none;
+}
+
+
+
+#signupRect {
+    position: absolute;
+    width: 12vw;
+    height: 4px;
+    left: 27vw;
+    top: 68vh;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+
+
